@@ -72,9 +72,11 @@ h1, h2, h3, h4 {
 /* =================================================================*/
 .menu-item {
     font-family: 'Nunito Sans', sans-serif;
-    @apply text-sm uppercase ml-4 text-secondary-color font-bold
+    @apply text-sm uppercase ml-4 text-slate-100 mb-6 md:text-secondary-color font-bold
 }
-
+/* .menu-tem a {
+    @apply text-slate-100
+} */
 /* =================================================================*/
 /** etc **/
 .rectangle-button {

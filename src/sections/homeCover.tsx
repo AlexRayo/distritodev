@@ -10,8 +10,8 @@ function HomeCover() {
             <div className="custom-container py-4">
                 <div className="blocks-half-desk md:h-96">
                     <div className='md:w-5/12'>
-                        <h1 className='h1-format text-dark'>¡Creemos en tu idea y en ti!</h1>
-                        <p className='text-slate-900 mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus officiis omnis pariatur alias vero hic nobis iste, ipsa.</p>
+                        <h1 className='h1-format text-dark'>Diseño profesional para tu sitio web y marca empresarial</h1>
+                        <p className='text-slate-900 mt-4'>Desarrollamos tus proyectos desde cero o renovamos su imágen con nuestra experiencia, creatividad y de la mano de tus ideas. </p>
                         <div className="flex mt-4">
                             <Button
                                 type="secondary"

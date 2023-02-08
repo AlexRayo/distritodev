@@ -11,7 +11,7 @@ function HomeCover() {
                 <div className="blocks-half-desk md:h-96">
                     <div className='md:w-5/12'>
                         <h1 className='h1-format text-dark'>Diseño profesional para tu sitio web y marca empresarial</h1>
-                        <p className='text-slate-900 mt-4'>Desarrollamos tus proyectos desde cero o renovamos su imágen con nuestra experiencia, creatividad y de la mano de tus ideas. </p>
+                        <p className='text-slate-900 mt-4'>Desarrollamos tus proyectos desde cero o renovamos su imagen; sitios web, logotipos, ilustraciones y diseño publicitario. Cada uno especialmente creado para captar la atención de clientes potenciales</p>
                         <div className="flex mt-4">
                             <Button
                                 type="secondary"

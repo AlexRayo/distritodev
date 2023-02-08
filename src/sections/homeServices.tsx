@@ -17,9 +17,9 @@ export default function HomeAbout() {
             <div className="custom-container mt-8 lg:mt-20 py-12">
                 <div className='mx-auto md:w-6/12 md:text-center'>
                     <h2 className='h2-format text-dark'>Nuestros servicios</h2>
-                    <p className="text-dark mt-4">
+                    {/* <p className="text-dark mt-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit maiores consectetur quos ab autem hic earum cupiditate architecto!.
-                    </p>
+                    </p> */}
                 </div>
 
                 {/* WEB DEVELOPMENT */}
@@ -32,13 +32,13 @@ export default function HomeAbout() {
                             srcImg={webDev}
                             altImg={"Creación de sitios web"}
                             title={"Creación de sitios web"}
-                            description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit maiores consectetur quos ab autem hic earum cupiditate architecto!."}
+                            description={"Desarrollamos tu primer sitio web diseñado a detalle para mostrar tus servicios o productos, de tal forma que puedas capturar la atención de tus usuarios/clientes."}
                         />
                         <ServiceItem
                             srcImg={webDev}
                             altImg={"Rediseño de sitios web"}
                             title={"Rediseño de sitios web"}
-                            description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit maiores consectetur quos ab autem hic earum cupiditate architecto!."}
+                            description={"Actualizamos tu sitio web con nuevas y mejores tendencias de diseño. Siempre enfocándonos en capturar la atención que tu negocio necesita para aumentar tus ventas."}
                         />
                     </div>
                 </div>
@@ -51,15 +51,15 @@ export default function HomeAbout() {
                     <div className="blocks-half-desk">
                         <ServiceItem
                             srcImg={logoDesign}
-                            altImg={"Creación de sitios web"}
-                            title={"Creación de sitios web"}
-                            description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit maiores consectetur quos ab autem hic earum cupiditate architecto!."}
+                            altImg={"Creación de logotipo"}
+                            title={"Creación de logotipo"}
+                            description={"Creamos tu logotipo implementando estudio de mercado, para crear así un sello de marca original y profesional que represente a tu negocio o empresa."}
                         />
                         <ServiceItem
                             srcImg={logoRedesign}
-                            altImg={"Rediseño de sitios web"}
-                            title={"Rediseño de sitios web"}
-                            description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit maiores consectetur quos ab autem hic earum cupiditate architecto!."}
+                            altImg={"Rediseño de logotipo"}
+                            title={"Rediseño de logotipo"}
+                            description={"Renovamos tu logotipo basado en el estudio de tu negocio/empresa. Creando un diseño moderno y fresco para brindar una mejor impresión."}
                         />
                     </div>
                 </div>
@@ -74,13 +74,13 @@ export default function HomeAbout() {
                             srcImg={socialNetwork}
                             altImg={"Redes sociales"}
                             title={"Redes sociales"}
-                            description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit maiores consectetur quos ab autem hic earum cupiditate architecto!."}
+                            description={"Diseñamos flyers y banners publicitarios pensados para capturar de forma efectiva la atención de usuarios y clientes potenciales."}
                         />
                         <ServiceItem
                             srcImg={illustrations}
                             altImg={"Ilustraciones"}
                             title={"Ilustraciones"}
-                            description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit maiores consectetur quos ab autem hic earum cupiditate architecto!."}
+                            description={"Creamos ilustraciones personalizadas para impresión o medios digitales."}
                         />
                     </div>
                 </div>
@@ -89,8 +89,8 @@ export default function HomeAbout() {
                 <div className="blocks-half-desk py-8">
                     <div className="md:w-5/12">
                         <h2 className="h2-format">Branding</h2>
-                        <h4 className="h4-format mt-4">Creación virtual de tu negocio</h4>
-                        <p className="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit maiores consectetur quos ab autem hic earum cupiditate architecto. Dolor sit amet consectetur adipisicing elit. Velit maiores consectetur quos ab autem hic earum cupiditate architecto!</p>
+                        <h4 className="h4-format mt-4">Creación virtual de tu empresa</h4>
+                        <p className="mt-2">Nos encargamos de todo el diseño de tu marca empresarial y te brindamos tu respectivo manual que te guía paso a paso para la implementación en medios digitales e impresos; este puede contener: papelerías corporativas, página web, publicidad offline/online o cualquier aplicación que desees implementar en tu negocio.</p>
 
                         <div className="flex mt-4 justify-end md:justify-start">
                             <Button

@@ -15,18 +15,26 @@ function Header() {
             <header className=" bg-primary-color">
                 <nav className="custom-container flex justify-between py-8 relative">
                     <Logo />
-                    <input id="menu" className='peer/menu absolute hidden w-0' type="checkbox" name="menu"/>
-                    <label htmlFor="menu" className='md:hidden cursor-pointer text-3xl'>☰</label>
 
-                    <div className="max-h-0 peer-checked/menu:max-h-96 transition-all duration-300 overflow-hidden absolute right-0 w-full text-left mt-16 bg-secondary-color md:w-auto md:relative md:mt-0 md:max-h-96 md:bg-inherit md:text-right">
-                        <ul className="pt-8 md:pt-0 md:flex">
-                            <li className="menu-item"><a href="#" className="">Inicio</a></li>
-                            <li className="menu-item"><a href="#" className="">Servicios</a></li>
-                            <li className="menu-item"><a href="#" className="">Quienes somos</a></li>
-                            <li className="menu-item"><a href="#" className="">Portfolio</a></li>
-                            <li className="menu-item"><a href="#" className="">Cotiza</a></li>
-                        </ul>
+                    <div className="relative inline-block text-left dropdown text-3xl">
+                        <button className='md:hidden' type="button">☰</button>
+                        <div className="opacity-0 opacity-100 invisible dropdown-menu transition-all duration-300 transform origin-top-right -translate-y-2 scale-95 md:visible">
+                            <div className="absolute md:relative right-0 w-56 md:w-auto mt-2 md:mt-0 origin-top-right bg-secondary-color md:bg-transparent rounded-md" role="menu">
+                                <div className="px-4 py-3">
+                                    <ul className="menu-primary">
+                                        <li><a href="#">Inicio</a></li>
+                                        <li><a href="#">Servicios</a></li>
+                                        <li><a href="#">Quienes somos</a></li>
+                                        <li><a href="#">Portfolio</a></li>
+                                        <li><a href="#">Cotiza</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
+
+
                 </nav>
             </header>
         </>

@@ -7,6 +7,7 @@ module.exports = {
     extend: {
         fontSize: {
             'xs' : '0.75rem',
+            'md' : '1rem',
         },
         colors: {
             'primary-color': '#f7ca6f',

@@ -8,8 +8,7 @@ function HomeAbout() {
             <div className="custom-container">
                 <div className="blocks-half-desk">
                     <div className="md:w-5/12">
-                        <h2 className="h4-format">Distrito dev</h2>
-                        <h3 className="h2-format">Quienes somos</h3>
+                        <h2 className="h2-format">Quienes somos</h2>
                         <p className="mt-2">Somos el mejor equipo de trabajo conformado por expertos en distintas áreas, enfocados en brindar soluciones a empresas que requieren dar un salto profesional</p>
 
                     </div>

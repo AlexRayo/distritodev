@@ -6,7 +6,9 @@ function Layout({ children }: any) {
     return (
         <main>
             <Header />
-            {children}
+            <div id="main" className="">
+                {children}
+            </div>
             <Footer />
         </main>
     )

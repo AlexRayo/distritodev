@@ -14,7 +14,7 @@ import brandDesign from '../public/img/brand-design.png'
 export default function HomeAbout() {
     return (
         <div className="">
-            <div className="custom-container mt-8 lg:mt-20 py-12">
+            <div className="container mt-8 lg:mt-20 py-12">
                 <div className='mx-auto md:w-6/12 md:text-center'>
                     <h2 className='h2-format text-dark'>Nuestros servicios</h2>
                     {/* <p className="text-dark mt-4">

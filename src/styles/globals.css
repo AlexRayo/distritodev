@@ -14,17 +14,17 @@ h1, h2, h3, h4 {
     @apply text-secondary-color font-black font-sans
 }
 /* ============================================ */
-.custom-container {
+.container {
     @apply px-2 xl:w-8/12 mx-auto
+}
+.blocks-half-desk {
+    @apply md:flex items-center justify-between w-full
 }
 
 .block-half-desk {
     @apply pb-8 md:pb-0 md:w-5/12 border-b-1 md:border-b-0 
 }
 
-.blocks-half-desk {
-    @apply md:flex items-center justify-between w-full
-}
 /* ============================================ */
 /* COLORS */
 .bg-primary {
@@ -56,7 +56,7 @@ h4 {
 
 /**=========== COMPONENTS ===========**/
 
-/* ===========*/
+/* BUTTONS*/
 .btn {
     @apply py-3 px-7 rounded hover:bg-opacity-80 uppercase tracking-wider text-xs font-medium
 }
@@ -67,7 +67,11 @@ h4 {
     @apply btn  border border-secondary-color text-secondary-color
 }
 
-/* Main menu */
+/*TOOLTIP*/
+.tooltip {
+    @apply absolute opacity-0 top-2 rounded bg-secondary-color text-slate-100 p-2 group-hover:opacity-100
+}
+/* MAIN MENU */
 .menu-primary {
     @apply py-2 md:pt-0 md:flex
 }
@@ -77,6 +81,17 @@ h4 {
 }
 .menu-primary li a:hover {
     @apply bg-slate-100 text-secondary-color md:border-secondary-color md:bg-transparent md:rounded-none
+}
+
+/**=========== SECTIONS ===========**/
+/*ABOUT*/
+.about img {
+    @apply mx-auto
+}
+
+/*PORTFOLIO*/
+.container-portfolio-img {
+    @apply h-40 col-span-1 flex items-center justify-center py-8 md:h-64 md:px-12 md:py-28
 }
 
 /**=========== ETC ===========**/

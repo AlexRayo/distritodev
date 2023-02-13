@@ -13,7 +13,7 @@ function Header() {
             </Head>
 
             <header className=" bg-primary-color">
-                <nav className="custom-container flex justify-between py-8 relative">
+                <nav className="container flex justify-between py-8 relative">
                     <Logo />
 
                     <div className="relative inline-block text-left dropdown text-3xl">

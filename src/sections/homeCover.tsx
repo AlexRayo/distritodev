@@ -7,7 +7,7 @@ import srcImgRestaurant from '../public/img/santamaria.png'
 function HomeCover() {
     return (
         <div className="bg-primary md:py-12">
-            <div className="custom-container py-4">
+            <div className="container py-4">
                 <div className="blocks-half-desk md:h-96">
                     <div className='md:w-5/12'>
                         <h1 className='h1-format text-dark'>Diseño profesional para tu sitio web y marca empresarial</h1>

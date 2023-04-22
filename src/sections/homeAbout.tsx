@@ -4,7 +4,7 @@ import srcImgAbout from '../public/img/about.png'
 
 function HomeAbout() {
     return (
-        <div className=" bg-primary-color-light py-20">
+        <div className=" bg-primary-color-light py-20" id='about'>
             <div className="container">
                 <div className="blocks-half-desk">
                     <div className="md:w-5/12">

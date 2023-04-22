@@ -3,17 +3,18 @@ import ServiceItem from "../components/serviceItem"
 import Image from 'next/image'
 import Button from "../components/button"
 
-import webDev from '../public/img/web-dev.png'
-import webRedesign from '../public/img/web-redesign.png'
-import logoDesign from '../public/img/logo-design.png'
-import logoRedesign from '../public/img/logo-redesign.png'
-import socialNetwork from '../public/img/social-media-design.png'
-import illustrations from '../public/img/illustration.png'
-import brandDesign from '../public/img/brand-design.png'
+import webDev from '../public/img/services/web-dev.png'
+import webRedesign from '../public/img/services/web-redesign.png'
+import logoDesign from '../public/img/services/logo-design.png'
+import logoRedesign from '../public/img/services/logo-redesign.png'
+import socialNetwork from '../public/img/services/social-media-design.png'
+import illustrations from '../public/img/services/illustration.png'
+import brandDesign from '../public/img/services/brand-design.png'
+import { contact } from '@/config/main'
 
 export default function HomeAbout() {
     return (
-        <div className="">
+        <div className="" id='services'>
             <div className="container mt-8 lg:mt-20 py-12">
                 <div className='mx-auto md:w-6/12 md:text-center'>
                     <h2 className='h2-format text-dark'>Nuestros servicios</h2>
@@ -95,7 +96,7 @@ export default function HomeAbout() {
                         <div className="flex mt-4 justify-end md:justify-start">
                             <Button
                                 type="primary"
-                                href="#"
+                                href={contact.WHATSAPP_LINK}
                                 text="Cotiza"
                             />
                         </div>

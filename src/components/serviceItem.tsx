@@ -2,6 +2,7 @@ import React from 'react'
 import { useInView } from 'react-intersection-observer';
 import Image from 'next/image'
 import Button from "../components/button"
+import { contact } from '@/config/main';
 
 const ServiceItem = ({ srcImg, altImg, title, description, link }: any) => {
 
@@ -25,7 +26,7 @@ const ServiceItem = ({ srcImg, altImg, title, description, link }: any) => {
             <div className="flex justify-end md:justify-start mt-4">
                 <Button
                     type="primary"
-                    href="#"
+                    href={contact.WHATSAPP_LINK}
                     text="Cotiza"
                 />
             </div>

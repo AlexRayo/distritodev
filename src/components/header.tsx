@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 
 import Logo from "../components/svg/logo-distritodev.svg"
+import { contact } from '@/config/main'
 
 function Header() {
     return (
@@ -22,11 +23,11 @@ function Header() {
                             <div className="absolute md:relative right-0 w-56 md:w-auto mt-2 md:mt-0 origin-top-right bg-secondary-color md:bg-transparent rounded-md" role="menu">
                                 <div className="px-4 py-3">
                                     <ul className="menu-primary">
-                                        <li><a href="#">Inicio</a></li>
-                                        <li><a href="#">Servicios</a></li>
-                                        <li><a href="#">Quienes somos</a></li>
-                                        <li><a href="#">Portfolio</a></li>
-                                        <li><a href="#">Cotiza</a></li>
+                                        <li><a href="#cover">Inicio</a></li>
+                                        <li><a href="#services">Servicios</a></li>
+                                        <li><a href="#about">Quienes somos</a></li>
+                                        <li><a href="#portfolio">Portfolio</a></li>
+                                        <li><a href={contact.WHATSAPP_LINK}>Cotiza</a></li>
                                     </ul>
                                 </div>
 

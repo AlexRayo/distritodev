@@ -9,7 +9,7 @@ import srcImgLogo4 from '../public/img/portfolio/logo4.png'
 
 export default function HomePortfolio() {
     return (
-        <div className="bg-primary-color-light-2 py-20">
+        <div className="bg-primary-color-light-2 py-20" id='portfolio'>
             <div className="container">
                 <div className="md:w-5/12">
                     <h2 className="h2-format mb-4">Portafolio</h2>

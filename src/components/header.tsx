@@ -14,15 +14,15 @@ function Header() {
             </Head>
 
             <header className=" bg-primary-color">
-                <nav className="container flex justify-between py-8 relative">
+                <nav className="container flex justify-between pt-8 relative">
                     <Logo />
 
                     <div className="relative inline-block text-left dropdown text-3xl">
                         <button className='md:hidden' type="button">☰</button>
                         <div className="opacity-0 opacity-100 invisible dropdown-menu transition-all duration-300 transform origin-top-right -translate-y-2 scale-95 md:visible">
                             <div className="absolute md:relative right-0 w-56 md:w-auto mt-2 md:mt-0 origin-top-right bg-secondary-color md:bg-transparent rounded-md" role="menu">
-                                <div className="px-4 py-3">
-                                    <ul className="menu-primary">
+                                <div className="px-4">
+                                    <ul className="menu-primary p-0">
                                         <li><a href="#cover">Inicio</a></li>
                                         <li><a href="#services">Servicios</a></li>
                                         <li><a href="#about">Quienes somos</a></li>

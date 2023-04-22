@@ -27,7 +27,7 @@ function HomeCover() {
                             />
                         </div>
                     </div>
-                    <div className="mt-4 md:mt-0 md:w-5/12 overflow-hidden rounded relative group hover:scale-95 hover:rotate-1">
+                    <div className="my-4 md:mt-0 md:w-5/12 overflow-hidden rounded relative group hover:scale-95 hover:rotate-1">
                         <span className="absolute w-100 p-5 text-center left-0 right-0 bottom-0 transition-all duration-300 hover:p-7 bg-gradient-to-tl from-slate-700 to-transparent">
                             <p className='text-2xl font-bold text-slate-100 uppercase tracking-widest'>Sitio web en construcción</p>
                         </span>

@@ -13,13 +13,15 @@ function Header() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <header className=" bg-primary-color">
-                <nav className="container flex justify-between pt-8 relative">
+            <header className=" bg-primary-color px-1 lg:px-0">
+                <nav className="container flex justify-between items-center px-2 pt-8 pb-4 lg:pb-0 relative">
                     <Logo />
 
                     <div className="relative inline-block text-left dropdown text-3xl">
-                        <button className='md:hidden' type="button">☰</button>
-                        <div className="opacity-0 opacity-100 invisible dropdown-menu transition-all duration-300 transform origin-top-right -translate-y-2 scale-95 md:visible">
+                        <div className="mb-4">
+                            <button className='md:hidden text-[2.75rem] ' type="button">☰</button>
+                        </div>
+                        <div className="opacity-100 invisible dropdown-menu transition-all duration-300 transform origin-top-right -translate-y-2 scale-95 md:visible">
                             <div className="absolute md:relative right-0 w-56 md:w-auto mt-2 md:mt-0 origin-top-right bg-secondary-color md:bg-transparent rounded-md" role="menu">
                                 <div className="px-4">
                                     <ul className="menu-primary p-0">
